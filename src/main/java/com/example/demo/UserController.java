@@ -48,7 +48,7 @@ public class UserController {
 		user.setLast_name(last_name);
 		//user.setEmail(email);
 		user.setPassword(password);
-		registrationService.registerStudent(user);
+		//registrationService.registerStudent(user);
 		ModelAndView mav=new ModelAndView("login");
 		return mav;
 	}
