@@ -34,7 +34,7 @@ private JdbcTemplate jdbcTemplate;
 			ps.setString(1, user.getFirst_name());
 			ps.setString(2, user.getLast_name());
 			ps.setString(3, user.getEmail());
-			//ps.setString(4, user.getPassword());
+			ps.setString(4, user.getPassword());
 			ps.executeUpdate();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
